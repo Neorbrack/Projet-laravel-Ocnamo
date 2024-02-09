@@ -1,0 +1,16 @@
+.image{
+    /* display: inline-block; */
+    width: 800px;
+    height: 680px;
+    padding: 0px;
+    margin: 0%;
+    display: flex;
+}
+
+.z{
+    width: 5000px;
+}
+
+.zz{
+    width: 1000px;
+}
