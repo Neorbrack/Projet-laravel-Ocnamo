@@ -12,11 +12,6 @@ class MainController extends Controller
     {
         return view('home');
     }
-
-    public function accueil()
-    {
-        return view('accueil');
-    }
     
     public function contact()
     {

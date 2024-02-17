@@ -14,12 +14,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', [MainController::class, 'home'])->name('home');
+Route::get('/', [MainController::class, 'home'])->name('main.home');
 
 Route::get('/menu', [MainController::class, 'menu'])->name('main.menu');
-
-Route::get('/accueil', [MainController::class, 'accueil'])->name('main.accueil');
 
 Route::get('/contact', [MainController::class, 'contact'])->name('main.contact');
 
 Route::get('/reservation', [MainController::class, 'reservation'])->name('main.reservation');
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
+
+require __DIR__.'/auth.php';

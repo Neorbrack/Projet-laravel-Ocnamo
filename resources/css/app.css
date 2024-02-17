@@ -1,16 +1,345 @@
-.image{
-    /* display: inline-block; */
-    width: 800px;
-    height: 680px;
-    padding: 0px;
-    margin: 0%;
+/* @import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  box-sizing: border-box;
+  background-color: #232323;
+}
+
+.sectionimg{
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Section première image et texte*/
+.img1 {
+  width: 100%;
+}
+
+.a {
+  max-width: 100%;
+}
+
+.aa{
+  height: 135vh;
+  width: 210vh;
+  margin: 0;
+  padding: 0;
+  display: flow-root;
+}
+
+.aaa{
+  height: 135vh;
+  width: 210vh;
+}
+
+h4 {
+  font-size: 20vh;
+  color: white;
+  position: absolute;
+  font-family: 'Pacifico', cursive;
+  /* margin: 10%; */
+}
+/*Section deuxième image et texte*/
+
+.img2{
+  background-color: beige;
+  grid-template-columns: 1fr 1fr;
+  float: left;
+  display: flex;
+}
+
+.img2 h2:nth-child(n){
+  width: 50%;
+  display: flex;
+  font-size: 40px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  font-family: 'Pacifico', cursive;
+  
+}
+
+.hrefmenu{
+  color: black;
+}
+
+.b{
+  width: 60%;
+  border-radius: 25px;
+  padding: 0px;
+  margin: 20px;
+  background-color: #cdcdcd;
+  padding: 5px;
+}
+
+/*Section troisième image et texte*/
+
+.img3{
+  background-color: beige;
+  grid-template-columns: 1fr 1fr;
+  flex-direction: row-reverse;
+  display: flex;
+ 
+}
+
+.img3 h3:nth-child(n){
+  width: 50%;
+  display: flex;
+  font-size: 40px;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Pacifico', cursive;
+  
+}
+
+.c{
+  width: 60%;
+  border-radius: 25px;
+  margin: 20px;
+  background-color: #232323;
+  padding: 5px;
+}
+
+/*Titre de la page*/
+
+h1{
+  font-size: 30vh;
+  color: white;
+  position: absolute;
+  font-family: 'Pacifico', cursive;
+  /* bottom: 10%; */
+  margin: 10%;
+    /* font-family: 'Mrs Saint Delafield', cursive; */
+}
+
+
+/*Section slide image accueil*/
+
+.slideshow-container {
+  position: relative;
+  /* max-width: 100%; */
+  margin: auto;
+  /* width: 100%; */
+}
+
+.slide {
+  /* width: 100%; */
+  display: none;
+}
+
+.fade {
+  animation: fadeEffect 3.0s ease-in-out infinite;
+}
+
+@keyframes fadeEffect {
+  0% { opacity: 0; }
+  25% { opacity: 1; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/*Section actualités*/
+
+.container1 {
+  display: flex;
+  background-color:burlywood;
+}
+
+.actu {
+  flex: 1;
+  text-align: center;
+  margin: 0 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+}
+
+.actu img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 25px;
+}
+
+h5{
+  color:#232323;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Pacifico', cursive;
+  background-color:antiquewhite
+
+}
+
+/* Section footer*/
+
+.footer{
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+
+.reseau{
+  display: flex;
+  justify-content: space-between;
+}
+
+.tiktok{
+  width: 25px;
+  height: 25px;
+}
+
+.insta{
+  width: 25px;
+  height: 25px;
+}
+
+.facebook{
+  width: 25px;
+  height: 25px;
+}
+
+.contact{
+  color: white;
+}
+
+/*Section navbar*/
+
+  .menu-container {
+    position: relative;
     display: flex;
-}
+    align-items: center;
+    margin-bottom: 20px;
+    background: #232323;
+    color: #cdcdcd;
+    padding: 40px;
+    user-select: none;
+    box-sizing: border-box;
+    height: 25px;
+  }
+  
+  .menu-logo {
+    line-height: 0;
+    margin: 0 20px;
+  }
+  
+  .menu-logo img {
+    max-height: 500px;
+    max-width: 100px;
+  }
+  
+  .menu-container a {
+    text-decoration: none;
+    color: #232323;
+    transition: color 0.3s ease;
+  }
+  
+  .menu-container a:hover {
+    color: #00C6A7;
+  }
+  
+  .menu-container input {
+    display: block;
+    width: 35px;
+    height: 25px;
+    margin: 0;
+    position: absolute;
+  }
 
-.z{
-    width: 5000px;
+  /* / Burger menu / */
+  .menu-container span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #cdcdcd;
+    border-radius: 3px;
+  }
+  
+.menu ul {
+    list-style: none;
+  }
+  
+.menu li {
+    padding: 10px 0;
+    font-size: 22px;
+  }
+  
+  /* / mobile styles / */
+  @media only screen and (max-width: 767px) { 
+    .menu-container {
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  
+    .menu-logo {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  
+    .menu-logo img {
+      max-height: 30px;
+    }
+  
+    .menu {
+      position: absolute;
+      box-sizing: border-box;
+      width: 300px;
+      right: -300px;
+      top: 0;
+      margin: -20px;
+      padding: 75px 50px 50px;
+      background: #cdcdcd;
+    }
+  
 }
+  
+  /* / desktop styles / */
+  @media only screen and (min-width: 768px) { 
+    .menu-container {
+      width: 100%;
+    }
+  
+    .menu-container a {
+      color: #cdcdcd;
+    }
+  
+    .menu-container input {
+      display: none;
+    }
+  
+    /* / Burger menu */ 
+    .menu-container span {
+      display: none;
+    }
+  
+    .menu {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .menu ul {
+      display: flex;
+      padding: 0;
+    }
+  
+    .menu li {
+      padding: 0 20px;
+    }
+  }
 
-.zz{
-    width: 1000px;
-}
+
