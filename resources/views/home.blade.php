@@ -4,6 +4,11 @@
 
 @section('content')
 
+<ul>
+    @foreach ($actus as $actu)
+        <li>{{ $actu->contenu }} ({{ $actu->date_publication }})</li>
+        @endforeach
+</ul>
     <body>
         <section class="sectionimg">
 
