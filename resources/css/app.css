@@ -1,5 +1,10 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Norican&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Norican&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=McLaren&family=Norican&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -63,13 +68,14 @@ h4 {
   font-size: 40px;
   flex-direction: column;
   align-items: center;
-  border-radius: 5px;
-  font-family: 'Pacifico', cursive;
-  
+  /* border-radius: 5px; */
+  font-family: "Agbalumo", system-ui;
+  font-weight: 300;
 }
 
 .hrefmenu{
   color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .b{
@@ -97,7 +103,8 @@ h4 {
   font-size: 40px;
   flex-direction: column;
   align-items: center;
-  font-family: 'Pacifico', cursive;
+  font-family: "Agbalumo", system-ui;
+  font-weight: 300;
   
 }
 
@@ -173,7 +180,7 @@ h5{
   color:#232323;
   text-align: center;
   font-size: 35px;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color:antiquewhite
 
 }

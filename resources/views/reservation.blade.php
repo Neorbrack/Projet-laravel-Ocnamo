@@ -1,9 +1,8 @@
 @extends('base')
 
-
-
 @section('content')
-    <section>
+<div>
+    <section class="reservation_container">
         <h2>Réservation</h2>
         {{-- <div class="invalid-feedback">
         @foreach ($errors->all() as $error)

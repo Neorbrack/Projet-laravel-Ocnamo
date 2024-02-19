@@ -65,6 +65,11 @@ class MainController extends Controller
         ]);
     }
 
+        public function contact()
+    {
+        return view('contact');
+    }
+
     public function menu()
     {
         $categories = Categorie::all();
