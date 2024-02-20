@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\AdminReservatioController;
 use App\Http\Controllers\MainController;
 use Illuminate\Support\Facades\Route;
 

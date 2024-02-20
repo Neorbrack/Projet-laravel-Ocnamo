@@ -7,13 +7,16 @@
     @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/css/menu.css', ])
 </head>
 
+<section>
 <body>
     <nav class="menu-container">
         <!-- burger menu -->
-        <input type="checkbox" aria-label="Toggle menu" />
+        <input type="checkbox" aria-label="Toggle menu" id="burger" />
+        <label for="burger">
         <span></span>
         <span></span>
         <span></span>
+        </label>
     
         <!-- logo -->
         <a href="#" class="menu-logo">
@@ -37,6 +40,7 @@
         </div>
         </nav>
 </body>
-
+    </div>
+</section>
 @yield('content')
-    
+        

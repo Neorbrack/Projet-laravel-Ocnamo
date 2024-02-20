@@ -190,10 +190,13 @@ h5{
 .footer{
   color: white;
   display: flex;
-  justify-content: space-around;
-  padding: 30px;
+  padding: 10px;
+  background-color: #232323;
+  margin: 0px;
+  justify-content: space-evenly;
+  align-items:center;
+  position: relative;
 }
-
 
 .reseau{
   display: flex;
@@ -269,7 +272,7 @@ h5{
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-    background: #cdcdcd;
+    background: #605f5f;
     border-radius: 3px;
   }
   
@@ -309,8 +312,44 @@ h5{
       margin: -20px;
       padding: 75px 50px 50px;
       background: #cdcdcd;
+      transition: all 0.6s ;
     }
   
+}
+
+.menu {
+  z-index: 50;
+}
+
+/*Menu ouvert*/
+[type="checkbox"]:checked ~ .menu {
+  right: 0;
+}
+
+label[for="burger"] span {
+  transition: all 0.6s;
+}
+
+[type="checkbox"]:checked ~ label span:nth-child(1) {
+  transform: rotateZ(45deg);
+  top: 9px;
+}
+
+[type="checkbox"]:checked ~ label span:nth-child(2) {
+  display: none;
+}
+
+[type="checkbox"]:checked ~ label span:nth-child(3) {
+  transform: rotateZ(-45deg);
+}
+
+
+#burger {
+  top: -1000px;
+}
+
+label[for="burger"] {
+  z-index: 100;
 }
   
   /* / desktop styles / */

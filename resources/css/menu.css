@@ -9,10 +9,10 @@
 
 .body_menu {
     background-color: white;
-    display: inline-block;
-    margin-bottom: 50px;
-    max-width: 100%;
-    background-color: beige;
+    display: flow-root; 
+    margin: 0;
+    padding: 0;
+     background-color: beige; 
 }
 
 .plats{
@@ -40,7 +40,8 @@
 .etiquette{
     /* display: flex; */
     /* top: 50px; */
-    color: white;
+    color: black;
+    list-style: none;
 }
 
 .plat2{
@@ -50,7 +51,7 @@
     font-family: 'Fira Sans';   
     color: #000000;
     margin-top: 30px;
-    color: white;
+    color: black;
 }
 
 .image-plat{
@@ -59,9 +60,11 @@
 
 }
 
+.plats div {
+    padding: 0 25px;
+}
 
-
-/*Section zizou*/ 
+/*Suite code*/
 
 
 
@@ -79,6 +82,7 @@
     font-weight: 200;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: underline;
+    background-color: burlywood;
 }
 
 
@@ -112,7 +116,23 @@
 }
 
 .prix{
-    width: 50%;
-    color: white;
-    text-align: end;
+    color: black;
+}
+
+/*Image cliqueable section*/
+
+body{
+background-color: beige;
+
+}
+.class_img_2{
+width: 500px;
+}
+
+.section_class_img{
+max-width: 100%;
+}
+.class_img{
+width: 500px;
+height: 500px;
 }

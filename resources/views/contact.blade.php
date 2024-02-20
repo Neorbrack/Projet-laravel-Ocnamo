@@ -6,7 +6,7 @@
     <style>
       
         body{
-            background-color: white;
+            background-color: beige;
         }
 
         h3{
@@ -47,7 +47,7 @@
         .map-container {
             position: relative;
             overflow: hidden;
-            padding-bottom: 30%; /* Aspect ratio 16:9 */
+            padding-bottom: 30%; 
             height: 0;
             margin-top: 20px;
         }
@@ -73,6 +73,7 @@
             border: 1px solid #ddd;
             padding: 8px;
             text-align: left;
+            background-color: white
         }
 
         th {
@@ -92,7 +93,7 @@
     <h2>Contactez-nous</h2>
     <br>
     <br>
-    <h2>Horaires d'ouverture</h2>
+    <h2 class="horaires">Horaires d'ouverture</h2>
     <table>
         <tr>
             <th>Jour</th>
@@ -158,21 +159,7 @@
         <button type="submit">Envoyer</button>
     </form>
 
-    <footer>
-        <div class="footer">
-            <p>© Copyright 2024 O'CNAMO</p>
-            <li>Mentions légales</li>
-            <li>Langue | FR</li>
-            <li> <a href="http://127.0.0.1:8000/contact" class="contact">Contactez-nous</a></li>
 
-            <ul>Réseaux sociaux
-                <div class="reseau">
-                    <a href="https://www.tiktok.com/fr/"><img src="image\tiktok.jpg"class="tiktok"></a>
-                    <a href="https://www.instagram.com"><img src="image\Insta.jpg"class="insta"></a>
-                    <a href="https://www.facebook.com/?locale=fr_FR"><img src="image\facebook.jpg"class="facebook">
-            </ul></a>
-        </div>
-</body>
 </html>
 
 

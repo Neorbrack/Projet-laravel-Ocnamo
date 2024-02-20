@@ -19,6 +19,7 @@
                     <div class="invalid-feedback">{{ $message }}</div>
                 @enderror
             </div>
+            <br>
             <div>
                 <label for="couverts">Nombre de couverts</label>
                 <input type="number" name="couverts" id="couverts" min="1" max="16"
@@ -27,6 +28,7 @@
                     <div class="invalid-feedback">{{ $message }}</div>
                 @enderror
             </div>
+            <br>
             <div>
                 <label for="heure">Heure</label>
                 <select name="heure" id="heure" required>
@@ -40,6 +42,7 @@
                     <div class="invalid-feedback">{{ $message }}</div>
                 @enderror
             </div>
+            <br>
             <div>
                 <label for="jour">Jour</label>
                 <input type="date" name="jour" id="jour" min="{{ date('Y-m-d') }}" value="{{ old('jour') }}"
@@ -48,6 +51,7 @@
                     <div class="invalid-feedback">{{ $message }}</div>
                 @enderror
             </div>
+            <br>
             <div>
                 <label for="telephone">Numéro de téléphone</label>
                 <input type="phone" name="telephone" id="telephone" value="{{ old('telephone') }}"
@@ -56,6 +60,7 @@
                     <div class="invalid-feedback">{{ $message }}</div>
                 @enderror
             </div>
+            <br>
             <div>
                 <label for="commentaires">Commentaires</label>
                 <textarea name="commentaires" id="commentaires" cols="30" rows="10">{{ old('commentaires') }}</textarea>
@@ -63,6 +68,7 @@
                     <div class="invalid-feedback">{{ $message }}</div>
                 @enderror
             </div>
+            <br>
             <div>
                 <button type="submit">Réserver</button>
             </div>
