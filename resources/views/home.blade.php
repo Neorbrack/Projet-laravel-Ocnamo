@@ -65,10 +65,18 @@
                     <img src="image\Droit-de-bouchon-au-restaurant.jpg">
                 </div>
                 <div class="actu">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati adipisci reprehenderit atque totam quasi animi quo necessitatibus natus nostrum, ea, eum voluptate non tenetur tempora nemo consequuntur excepturi laboriosam quam?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati adipisci reprehenderit atque totam quasi animi quo necessitatibus natus nostrum, ea, eum voluptate non tenetur tempora nemo consequuntur?</p>
                     <img src="image\Parc_JB_Lebas_Lille.Photo_Ph.BRIZARD.jpg">
                 </div>
             </div>
+        </head>
+        <body>
+
+
+
+
+
+            
     </body>
 
     <footer>

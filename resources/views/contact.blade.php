@@ -101,27 +101,27 @@
         </tr>
         <tr>
             <td>Lundi</td>
-            <td>11:00 - 22:30</td>
+            <td>12:00 - 21:30</td>
         </tr>
         <tr>
             <td>Mardi</td>
-            <td>11:00 - 22:30</td>
+            <td>12:00 - 21:30</td>
         </tr>
         <tr>
             <td>Mercredi</td>
-            <td>11:00 - 22:30</td>
+            <td>12:00 - 21:30</td>
         </tr>
         <tr>
             <td>Jeudi</td>
-            <td>11:00 - 22:30</td>
+            <td>12:00 - 21:30</td>
         </tr>
         <tr>
             <td>Vendredi</td>
-            <td>11:00 - 22:30</td>
+            <td>12:00 - 21:30</td>
         </tr>
         <tr>
             <td>Samedi</td>
-            <td>11:00 - 20:00</td>
+            <td>12:00 - 21:30</td>
         </tr>
         <tr>
             <td>Dimanche</td>
